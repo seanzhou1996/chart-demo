@@ -1,0 +1,6 @@
+.envrc
+.nvmrc
+.vscode
+node_modules
+docs
+dist
