@@ -1,6 +1,10 @@
 # Chart demo
 
-This repository demonstrates how to use Highcharts to create the figure at https://fred.stlouisfed.org/series/T10Y2Y.
+This project demonstrates how to use Highcharts to create the figure at https://fred.stlouisfed.org/series/T10Y2Y.
+
+## Preview
+
+Live demo is available at https://seanzhou1996.github.io/chart-site/.
 
 ## Develop
 
