@@ -33,6 +33,8 @@ async function init() {
   });
   try {
     await loadDomContent;
+    const chartFooter = document.getElementById(CHART_FOOTER_ID);
+    chartFooter.style.display = 'none';
     const res = await axios.get('/static/T10Y2Y.csv');
     const cycleDatesRes = await axios.get('/static/cycle_dates.csv');
     const array = (
@@ -182,7 +184,6 @@ async function init() {
       }
     };
     const chart = Highcharts.stockChart(options);
-    const chartFooter = document.getElementById(CHART_FOOTER_ID);
     chartFooter.style.display = 'block';
   } catch (err) {
     throw err;
