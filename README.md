@@ -2,9 +2,12 @@
 
 This project demonstrates how to use Highcharts to create the figure at https://fred.stlouisfed.org/series/T10Y2Y.
 
-## Preview
-
 Live demo is available at https://seanzhou1996.github.io/chart-site/.
+
+## Prerequisites
+
+* Node.js v14.16.0+
+* Docker
 
 ## Develop
 
