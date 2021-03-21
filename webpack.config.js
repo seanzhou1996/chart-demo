@@ -10,6 +10,10 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader']
+      }
     ],
   },
   resolve: {
@@ -17,7 +21,8 @@ module.exports = {
   },
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/dist/',
     clean: true,
   },
   devServer: {
